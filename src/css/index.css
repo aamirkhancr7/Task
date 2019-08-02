@@ -1,0 +1,41 @@
+:root {
+    font-size: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.name-list-head {
+    font-weight: bold;
+}
+
+.name-list-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item-head {
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.cart-list {
+    background: #dadada;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 20px;
+}
